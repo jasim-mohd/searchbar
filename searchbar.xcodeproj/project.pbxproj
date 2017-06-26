@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CE33D6231F000B2600CAD8E2 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE33D6221F000B2600CAD8E2 /* image.jpg */; };
-		CE33D6511F0049A000CAD8E2 /* imageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE33D6501F0049A000CAD8E2 /* imageViewController.m */; };
 		CE9070171EF5EACF00888D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9070161EF5EACF00888D10 /* main.m */; };
 		CE90701A1EF5EACF00888D10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9070191EF5EACF00888D10 /* AppDelegate.m */; };
 		CE90701D1EF5EACF00888D10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90701C1EF5EACF00888D10 /* ViewController.m */; };
@@ -19,8 +18,6 @@
 
 /* Begin PBXFileReference section */
 		CE33D6221F000B2600CAD8E2 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
-		CE33D64F1F0049A000CAD8E2 /* imageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageViewController.h; sourceTree = "<group>"; };
-		CE33D6501F0049A000CAD8E2 /* imageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageViewController.m; sourceTree = "<group>"; };
 		CE9070121EF5EACE00888D10 /* searchbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9070161EF5EACF00888D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE9070181EF5EACF00888D10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,8 +62,6 @@
 			children = (
 				CE90701B1EF5EACF00888D10 /* ViewController.h */,
 				CE90701C1EF5EACF00888D10 /* ViewController.m */,
-				CE33D64F1F0049A000CAD8E2 /* imageViewController.h */,
-				CE33D6501F0049A000CAD8E2 /* imageViewController.m */,
 				CE90701E1EF5EAD000888D10 /* Main.storyboard */,
 				CE33D6221F000B2600CAD8E2 /* image.jpg */,
 				CE9070151EF5EACF00888D10 /* Supporting Files */,
@@ -162,7 +157,6 @@
 			files = (
 				CE90701D1EF5EACF00888D10 /* ViewController.m in Sources */,
 				CE90701A1EF5EACF00888D10 /* AppDelegate.m in Sources */,
-				CE33D6511F0049A000CAD8E2 /* imageViewController.m in Sources */,
 				CE9070171EF5EACF00888D10 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

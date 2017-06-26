@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
+@property (weak, nonatomic) IBOutlet UIImageView *picture;
 @property (weak, nonatomic) IBOutlet UISearchBar *mysearchBar;
 @property (weak, nonatomic) IBOutlet UITableView *mytable;
 @property (strong, nonatomic) NSMutableArray *initialCities;

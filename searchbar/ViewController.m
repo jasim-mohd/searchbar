@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "imageViewController.h"
 
 
 @interface ViewController ()
@@ -60,6 +59,9 @@
     // Do some stuff when the row is selected
     NSLog(@"title of cell %@", [_initialCities objectAtIndex:indexPath.row]);
         [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    _picture.image = [UIImage imageNamed:@"image.jpg"];
+    
+//  myImage.image = [UIImage imageNamed:@"return_journey_denoter.png"];
     
 //    UIImageView *imgview = [[UIImageView alloc]
 //                            initWithFrame:CGRectMake(10, 10, 300, 400)];

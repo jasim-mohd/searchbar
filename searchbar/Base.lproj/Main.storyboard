@@ -51,7 +51,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="ZQY-qU-WyO" kind="show" id="xet-pH-tUm"/>
+                                            <segue destination="jTz-g3-VcY" kind="show" id="VpU-iG-Lub"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -83,23 +83,32 @@
             </objects>
             <point key="canvasLocation" x="1996" y="122.78860569715144"/>
         </scene>
-        <!--Image View Controller-->
-        <scene sceneID="ysS-Lv-Zyc">
+        <!--View Controller-->
+        <scene sceneID="3FL-cK-5nK">
             <objects>
-                <viewController id="ZQY-qU-WyO" customClass="imageViewController" sceneMemberID="viewController">
+                <viewController id="jTz-g3-VcY" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="15M-Ur-l1E"/>
-                        <viewControllerLayoutGuide type="bottom" id="SS5-LH-CIc"/>
+                        <viewControllerLayoutGuide type="top" id="zxw-zE-Tx4"/>
+                        <viewControllerLayoutGuide type="bottom" id="PLf-LY-sDJ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="x2z-jQ-3kW">
+                    <view key="view" contentMode="scaleToFill" id="yaX-Qz-W7o">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kFa-KJ-EKG">
+                                <rect key="frame" x="67" y="160" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="picture" destination="kFa-KJ-EKG" id="iqv-Ev-7Lo"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kk1-fP-9oc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ogz-OS-tAu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2656.8000000000002" y="122.78860569715144"/>
+            <point key="canvasLocation" x="2692" y="123"/>
         </scene>
         <!--Item-->
         <scene sceneID="fWg-he-lBo">
@@ -126,6 +135,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gXE-wM-XoV" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="bUN-Nx-u4c">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
