@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
+@property (weak, nonatomic) IBOutlet UISearchBar *mysearchBar;
+@property (weak, nonatomic) IBOutlet UITableView *mytable;
+@property (strong, nonatomic) NSMutableArray *initialCities;
+@property (strong, nonatomic) NSMutableArray *filteredCities;
+@property BOOL isfiltered;
 
 @end
 
